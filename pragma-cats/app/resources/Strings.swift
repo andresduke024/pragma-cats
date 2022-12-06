@@ -14,4 +14,6 @@ class Strings {
     static let decodingError: String = "Ocurrió un error. Algo salió mal en el camino"
     static let fail: String = "Ocurrío un error desconocido. Verifica tu conexión a internet y luego intenta cerrar sesión e iniciarla nuevamente"
     static let success: String = "Procedimento completado exitosamente"
+    
+    static let breeds: String = "Razas"
 }

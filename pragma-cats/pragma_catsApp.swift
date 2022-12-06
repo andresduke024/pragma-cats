@@ -11,7 +11,11 @@ import SwiftUI
 struct pragma_catsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CatsView(
+                viewModel: CatsViewModel(
+                    CatsRepositoryFactory.get(AppSettings.appDataSourceType)
+                )
+            )
         }
     }
 }

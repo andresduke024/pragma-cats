@@ -7,10 +7,14 @@
 
 import Foundation
 
-struct Cat {
+struct Cat: Identifiable {
     let breedName: String
     let origin: String
     let affectionLevel: Int
     let intelligence: Int
     let imageUrl: String
+}
+
+extension Cat {
+    var id: UUID { UUID() }
 }

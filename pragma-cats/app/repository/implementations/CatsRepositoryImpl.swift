@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-class ClassRepositoryImpl: Repository, CatsRepository {
+class CatsRepositoryImpl: Repository, CatsRepository {
     private func getHeaders() -> HTTPHeaders {
         ["x-api-key" : CatsAPI.authKey]
     }
