@@ -11,6 +11,16 @@
 		A3059E97293EF74E00C874F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059E96293EF74E00C874F9 /* ContentView.swift */; };
 		A3059E99293EF74F00C874F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3059E98293EF74F00C874F9 /* Assets.xcassets */; };
 		A3059E9C293EF74F00C874F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3059E9B293EF74F00C874F9 /* Preview Assets.xcassets */; };
+		A3059EA6293EFC0200C874F9 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059EA5293EFC0200C874F9 /* Cat.swift */; };
+		A3059EA9293EFC3000C874F9 /* CatBreedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059EA8293EFC3000C874F9 /* CatBreedResponse.swift */; };
+		A3059EAB293EFC5400C874F9 /* CatsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059EAA293EFC5400C874F9 /* CatsRepository.swift */; };
+		A3059EAE293EFD0700C874F9 /* ResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059EAD293EFD0700C874F9 /* ResponseStatus.swift */; };
+		A3059EB1293EFD2D00C874F9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059EB0293EFD2D00C874F9 /* Response.swift */; };
+		A3059EB4293EFDA200C874F9 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059EB3293EFDA200C874F9 /* Strings.swift */; };
+		A3059EB7293EFE6200C874F9 /* CatsRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059EB6293EFE6200C874F9 /* CatsRepositoryImpl.swift */; };
+		A3059EB9293EFEB200C874F9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059EB8293EFEB200C874F9 /* Repository.swift */; };
+		A3059EBC293F006500C874F9 /* CatsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059EBB293F006500C874F9 /* CatsAPI.swift */; };
+		A3059EC1293F034700C874F9 /* CatBreedsResponseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3059EC0293F034700C874F9 /* CatBreedsResponseMapper.swift */; };
 		E8BAD93479DB324893AD227C /* Pods_pragma_cats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50193B08F15FBC488BAD784C /* Pods_pragma_cats.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +32,16 @@
 		A3059E96293EF74E00C874F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3059E98293EF74F00C874F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3059E9B293EF74F00C874F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3059EA5293EFC0200C874F9 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		A3059EA8293EFC3000C874F9 /* CatBreedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedResponse.swift; sourceTree = "<group>"; };
+		A3059EAA293EFC5400C874F9 /* CatsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsRepository.swift; sourceTree = "<group>"; };
+		A3059EAD293EFD0700C874F9 /* ResponseStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseStatus.swift; sourceTree = "<group>"; };
+		A3059EB0293EFD2D00C874F9 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		A3059EB3293EFDA200C874F9 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		A3059EB6293EFE6200C874F9 /* CatsRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsRepositoryImpl.swift; sourceTree = "<group>"; };
+		A3059EB8293EFEB200C874F9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		A3059EBB293F006500C874F9 /* CatsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAPI.swift; sourceTree = "<group>"; };
+		A3059EC0293F034700C874F9 /* CatBreedsResponseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBreedsResponseMapper.swift; sourceTree = "<group>"; };
 		EC8855AADFDBBBF945C364C9 /* Pods-pragma-cats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pragma-cats.release.xcconfig"; path = "Target Support Files/Pods-pragma-cats/Pods-pragma-cats.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +86,7 @@
 		A3059E93293EF74E00C874F9 /* pragma-cats */ = {
 			isa = PBXGroup;
 			children = (
+				A3059EA2293EFBB100C874F9 /* app */,
 				A3059E94293EF74E00C874F9 /* pragma_catsApp.swift */,
 				A3059E96293EF74E00C874F9 /* ContentView.swift */,
 				A3059E98293EF74F00C874F9 /* Assets.xcassets */,
@@ -82,13 +103,85 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A3059EA2293EFBB100C874F9 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				A3059EB2293EFD9500C874F9 /* resources */,
+				A3059EA4293EFBBF00C874F9 /* repository */,
+				A3059EA3293EFBB600C874F9 /* models */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		A3059EA3293EFBB600C874F9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A3059EAC293EFCFA00C874F9 /* enums */,
+				A3059EA7293EFC0700C874F9 /* response */,
+				A3059EBF293F033400C874F9 /* utils */,
+				A3059EA5293EFC0200C874F9 /* Cat.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A3059EA4293EFBBF00C874F9 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				A3059EB5293EFE4D00C874F9 /* implementations */,
+				A3059EAA293EFC5400C874F9 /* CatsRepository.swift */,
+				A3059EB8293EFEB200C874F9 /* Repository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		A3059EA7293EFC0700C874F9 /* response */ = {
+			isa = PBXGroup;
+			children = (
+				A3059EB0293EFD2D00C874F9 /* Response.swift */,
+				A3059EA8293EFC3000C874F9 /* CatBreedResponse.swift */,
+			);
+			path = response;
+			sourceTree = "<group>";
+		};
+		A3059EAC293EFCFA00C874F9 /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				A3059EAD293EFD0700C874F9 /* ResponseStatus.swift */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		A3059EB2293EFD9500C874F9 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3059EB3293EFDA200C874F9 /* Strings.swift */,
+				A3059EBB293F006500C874F9 /* CatsAPI.swift */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		A3059EB5293EFE4D00C874F9 /* implementations */ = {
+			isa = PBXGroup;
+			children = (
+				A3059EB6293EFE6200C874F9 /* CatsRepositoryImpl.swift */,
+			);
+			path = implementations;
+			sourceTree = "<group>";
+		};
+		A3059EBF293F033400C874F9 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A3059EC0293F034700C874F9 /* CatBreedsResponseMapper.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		EC40B141468F1F058A857182 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				6231ADA20C6BC8C0C3F13945 /* Pods-pragma-cats.debug.xcconfig */,
 				EC8855AADFDBBBF945C364C9 /* Pods-pragma-cats.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,8 +299,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3059EAE293EFD0700C874F9 /* ResponseStatus.swift in Sources */,
 				A3059E97293EF74E00C874F9 /* ContentView.swift in Sources */,
+				A3059EB7293EFE6200C874F9 /* CatsRepositoryImpl.swift in Sources */,
+				A3059EB4293EFDA200C874F9 /* Strings.swift in Sources */,
 				A3059E95293EF74E00C874F9 /* pragma_catsApp.swift in Sources */,
+				A3059EA9293EFC3000C874F9 /* CatBreedResponse.swift in Sources */,
+				A3059EAB293EFC5400C874F9 /* CatsRepository.swift in Sources */,
+				A3059EB9293EFEB200C874F9 /* Repository.swift in Sources */,
+				A3059EA6293EFC0200C874F9 /* Cat.swift in Sources */,
+				A3059EC1293F034700C874F9 /* CatBreedsResponseMapper.swift in Sources */,
+				A3059EB1293EFD2D00C874F9 /* Response.swift in Sources */,
+				A3059EBC293F006500C874F9 /* CatsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
